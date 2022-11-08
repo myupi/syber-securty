@@ -1,0 +1,642 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 30);
+    width: 100%;
+    min-width: 2000px;
+    max-width: 2000px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 35);
+}
+.robot{
+    margin-left: 600px;
+    margin-top: 15px;
+    display: inline-block;
+    position: absolute;
+}
+
+.header-p-1{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 1000px;
+    margin-top: 35px;
+}
+
+.header-p-2{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header-p-3{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header-p-4{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header-p-5{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.header-button{
+    width: 112px;
+    height: 52px;
+    margin-left: 256px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rocket{
+    height: 1030;
+    width: 100%;
+}
+
+.rocket-p-1{
+    margin-top: 160px;
+    margin-left: 600px;
+    color: #3A68B8;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+.rocket-p-2{
+    font-size: 55px;
+    width: 604px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    height: 142px;
+    margin-left: 600px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.words{
+    width: 49%;
+}
+
+.rocket-p-3{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 600px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+
+.rocket-btn-1{
+    display: inline-block;
+    width: 171px;
+    height: 57px;
+    margin-left: 600px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.rocket-btn-2{
+    display: inline-block;
+    width: 171px;
+    height: 57px;
+    margin-left: 25px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.rocket-img{
+    display: inline-block;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 1200px;
+}
+
+.rocket-img-2{
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+.mind{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 25);
+    width: 100%;
+    height: 950px;
+}
+
+.mind-img{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.text{
+    margin-left: 1200px;
+    display: inline-block;
+    width: 49%;
+}
+
+.text-1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+    width: 480px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+.text-2{
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+    width: 460px;
+    margin-top: 0px;
+}
+
+.text-btn{
+    display: inline-block;
+    width: 171px;
+    height: 57px;
+    margin-left: 100px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.card{
+    width: 100%;
+    height: 400px;
+}
+
+.card-1{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card-2{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    margin-left: 450px;
+    border-radius: 10px;
+}
+
+.card-3{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    margin-left: 900px;
+    border-radius: 10px;
+}
+
+.card-4{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    margin-left: 1350px;
+    border-radius: 10px;
+}
+
+.card-5{
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    margin-left: 1800px;
+    border-radius: 10px;
+}
+
+.card-img{
+    margin-top: 30px;
+}
+
+.card-img-1{
+    margin-top: 60px;
+}
+
+.card-p-1{
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    width: 300px;
+    line-height: 30px;
+}
+
+.card-word{
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.dot1{
+    margin-top: 400px;
+    margin-left: 1100px;
+}
+
+.dot2{
+    margin-left: 10px;
+}
+
+.dot3{
+    margin-left: 10px;
+}
+
+.phone{
+    width: 100%;
+    height: 750px;
+}
+.phone-img{
+    display: inline-block;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.phone-word-1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.phone-word-2{
+    margin-top: 250px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 600px;
+    position: absolute;
+    width: 650px;
+    
+}
+
+.phone-word-3{
+    margin-top: 340px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 600px;
+    position: absolute;
+    width: 650px;
+}
+
+.phone-word-4{
+    margin-top: 400px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 600px;
+    position: absolute;
+    width: 650px;
+}
+
+.phone-word-5{
+    margin-top: 470px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 600px;
+    position: absolute;
+    width: 650px;
+}
+
+.boddy{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 25);
+}
+
+.boddy-robot{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+
+.boddy-p-1{
+    position: absolute;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 600px;
+    margin-top: 170px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gmail{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 245px;
+}
+
+.phone-number{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 295px;
+}
+
+.street{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 340px;
+}
+
+.information{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 900px;
+    margin-top: 90px;
+}
+
+.new{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 135px;
+}
+
+.store{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 180px;
+}
+
+.us{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 220px;
+}
+
+.latest{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 260px;
+}
+
+.map{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 300px;
+}
+
+.history{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 900px;
+    margin-top: 340px;
+}
+
+.menu{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 1100px;
+    margin-top: 90px;
+}
+
+.insta{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 135px;
+}
+
+.new2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 180px;
+}
+
+.us2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 220px;
+}
+
+.latest2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 260px;
+}
+
+.terms{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 300px;
+}
+
+.history2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-top: 340px;
+}
+
+.link{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 1300px;
+    margin-top: 90px;
+}
+
+.insta2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 135px;
+}
+
+.new3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 180px;
+}
+
+.us3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 220px;
+}
+
+.latest3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 260px;
+}
+
+.terms2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 300px;
+}
+
+.history3{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1300px;
+    margin-top: 340px;
+}
+
+.about{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 1500px;
+    margin-top: 90px;
+}
+
+.boddy-p-2{
+    position: absolute;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1500px;
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.www{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    margin-left: 1500px;
+    margin-top: 235px;
+}
+
+.youtube{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 274px;
+}
+
+.english{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 340px;
+}
+
+.play{
+    padding-bottom: 15px;
+    position: absolute;
+}
